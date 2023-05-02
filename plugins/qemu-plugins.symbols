@@ -42,4 +42,10 @@
   qemu_plugin_tb_vaddr;
   qemu_plugin_uninstall;
   qemu_plugin_vcpu_for_each;
+  qemu_plugin_flush_tb;
+  qemu_plugin_read_reg;
+  qemu_plugin_rw_memory_cpu;
+  qemu_plugin_single_step;
+  qemu_plugin_write_reg;
+  qemu_plugin_get_address_space;
 };
